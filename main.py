@@ -1,7 +1,3 @@
-#TODO: Create a Useless Hack
-#Create any silly, unnecessary, or useless hack!
-
-from emoji import emojize
 import random
 
 def emoji_talk():
