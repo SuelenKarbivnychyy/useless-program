@@ -2,7 +2,8 @@ import random
 
 def emoji_talk():
     """
-    A silly project for people to talk through emoji 🤗"""
+    A silly project for people to talk through emoji 🤗
+    """
 
     Sad_emoji = ["😮‍💨", "😖", "🥺", "☹", "😩","😞"]
     random_emoji = ["👯‍♀️","💆‍♀️", "👩‍🍼", "👸", "🧐", "😆"]
@@ -19,12 +20,10 @@ def emoji_talk():
         elif person_mood == "Happy":
             print(f"\nYou said: {random.choice(happy)}")
         elif person_mood == "Fine":
-            print(f"\nYou said: {random.choice(random_emoji)}") 
-
+            print(f"\nYou said: {random.choice(random_emoji)}")
         else:
             lets_talk = False       
 
         print(f"computer says: {random.choice(random_emoji)}")
-
               
 emoji_talk()         
